@@ -15,7 +15,10 @@ class Left extends Component {
     return (
       <Grid container className={classes.root}>
         <Grid item xs={12} className={classes.image}>
-          <img style={{ height: "100%", width: "70%" }} src="./photo.PNG" />
+          <img
+            style={{ height: "100%", width: "100%", marginLeft: "-19%" }}
+            src="./photo.PNG"
+          />
         </Grid>
         <Grid item xs={12} className={classes.subImage}>
           <Typography variant="h5" align="center" className={classes.title}>
@@ -52,6 +55,36 @@ class Left extends Component {
           <Grid container className={classes.iconContainer}>
             <Grid item xs={6}>
               <Typography align="center">
+                <i className={"fab fa-java " + classes.icon} align="right" />
+              </Typography>
+
+              <Typography
+                variant="body2"
+                gutterBottom
+                className={classes.subtitle}
+                align="center"
+              >
+                Java
+              </Typography>
+            </Grid>
+            <Grid item xs={6}>
+              <Typography align="center">
+                <i className={"fas fa-leaf " + classes.icon} align="right" />
+              </Typography>
+
+              <Typography
+                variant="body2"
+                gutterBottom
+                className={classes.subtitle}
+                align="center"
+              >
+                Spring
+              </Typography>
+            </Grid>
+          </Grid>
+          <Grid container className={classes.iconContainer}>
+            <Grid item xs={6}>
+              <Typography align="center">
                 <i className={"fab fa-react " + classes.icon} align="right" />
               </Typography>
 
@@ -84,7 +117,11 @@ class Left extends Component {
           <Typography variant="h6" gutterBottom className={classes.subsubtitle}>
             Langues
           </Typography>
-          <Typography variant="subtitle1" gutterBottom className={classes.subtitle}>
+          <Typography
+            variant="subtitle1"
+            gutterBottom
+            className={classes.subtitle}
+          >
             Français
           </Typography>
           <LinearProgress
@@ -92,7 +129,11 @@ class Left extends Component {
             value={90}
             className={classes.progress}
           />
-          <Typography variant="subtitle1" gutterBottom className={classes.subtitle}>
+          <Typography
+            variant="subtitle1"
+            gutterBottom
+            className={classes.subtitle}
+          >
             Anglais
           </Typography>
           <LinearProgress
@@ -100,7 +141,11 @@ class Left extends Component {
             value={90}
             className={classes.progress}
           />
-          <Typography variant="subtitle1" gutterBottom className={classes.subtitle}>
+          <Typography
+            variant="subtitle1"
+            gutterBottom
+            className={classes.subtitle}
+          >
             Arabe
           </Typography>
           <LinearProgress

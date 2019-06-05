@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-// import Cv from './Cv';
-import Test from "./test";
+import Cv from "./Cv";
 
 class App extends Component {
   render() {
-    return <Test />;
+    return (
+        <Cv />
+    );
   }
 }
 

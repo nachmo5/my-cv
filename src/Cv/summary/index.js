@@ -24,27 +24,8 @@ class Summary extends Component {
             gutterBottom
             className={classes.subtitle}
           >
-            Conception d'architecture des solutions informatiques:
-          </Typography>
-          <Typography
-            variant="subtitle2"
-            gutterBottom
-            className={classes.subtitle}
-          >
-            {"- Matérielle: Cloud, Systèmes distribués "}
-            <br />
-            {"- Logicielle: Services, Microservices, CQRS, Event sourcing"}
-          </Typography>
-          <Divider light />
-          <br />
+            - Conception d'architectures maintenables et extensibles
 
-          <Typography
-            variant="subtitle2"
-            gutterBottom
-            className={classes.subtitle}
-          >
-            - Programmation exploitant les nouvelles technologies: React, Node,
-            GRAPHQL, Kafka
           </Typography>
 
           <Divider light />
@@ -54,8 +35,7 @@ class Summary extends Component {
             gutterBottom
             className={classes.subtitle}
           >
-            - Respect des normes de programmation, Tests, optimisation et clarté
-            du code.
+            - Grande expertise en développement et veille technologique
           </Typography>
           <Divider light />
           <br />
@@ -65,13 +45,13 @@ class Summary extends Component {
             gutterBottom
             className={classes.subtitle}
           >
-            - Rédaction des rapports et de la documentation technique
+            - Respect des bonnes pratiques, Design Patterns
           </Typography>
           <Divider light />
           <br />
 
           <Typography variant="subtitle2" className={classes.subtitle}>
-            - Agilité, travail en équipe: Scrum, Slack
+            - Rédaction des documents techniques
           </Typography>
           <br />
         </Grid>

@@ -48,18 +48,6 @@ class Education extends Component {
           >
             Ecole Nationale des sciences Appliquées de Fès
           </Typography>
-          <Divider light />
-        </Grid>
-        <Grid item xs={12} className={classes.cardBody}>
-          <Typography variant="h6" gutterBottom className={classes.title}>
-            Baccalauréat Sciences
-          </Typography>
-          <Typography variant="subtitle2" gutterBottom className={classes.date}>
-            2010 - 2011
-          </Typography>
-          <Typography variant="subtitle2" className={classes.subtitle}>
-            Lycée Riad - Maroc
-          </Typography>
         </Grid>
       </Grid>
     );

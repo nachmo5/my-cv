@@ -20,34 +20,60 @@ class Education extends Component {
         </Grid>
         <Grid item xs={12} className={classes.cardBody}>
           <Typography variant="h6" gutterBottom className={classes.title}>
-            Ingénieur études et développement - Taillis Labs
+          Ingénieur Études Et Développement Java - Accenture Saint-Herblain
           </Typography>
           <Typography variant="subtitle2" gutterBottom className={classes.date}>
-            Octobre 2017 - Septembre 2018
+            Février 2019 - Août 2019
           </Typography>
           <Typography variant="body1" className={classes.subtitle}>
-            - Développement d'un CRM pour un centre d'appel: <b className= {classes.technos}>Microservices, Graphql, Kafka, CQRS, Event sourcing</b>
+            - Conception d'architecture logicielle: <b className= {classes.technos}>M.O.M</b>
           </Typography>
           <Typography variant="body1" className={classes.subtitle}>
-            - Développement d'une application de facturation: <b className= {classes.technos}>Graphql, Express</b>
+            - Développement: <b className= {classes.technos}>Java, Spring, Camel</b>
           </Typography>
           <Typography variant="body1" className={classes.subtitle}>
-            - Développement d'une application de booking: <b className= {classes.technos}>Express, Mongodb</b>
+            - Analyse et optimisation des performances
           </Typography>
           <Typography variant="body1" className={classes.subtitle}>
-            - Développement d'une application de mise en relation
-            patient/médecin: <b className= {classes.technos}>Microservices, Webrtc</b>
+            - Intégration continue: <b className= {classes.technos}>Jenkins, Sonar</b>
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Tests unitaires et tests automatisés
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Agilité: <b className= {classes.technos}>Scrum</b>
           </Typography>
           <br />
           <Divider light />
         </Grid>
         <Grid item xs={12} className={classes.cardBody}>
           <Typography variant="h6" gutterBottom className={classes.title}>
-            Stage de Fin d’études : Développeur Symfony 3, AngularJS - Appartoo
-            Paris
+            Ingénieur études et développement FullStack Javascript - Taillis Labs
           </Typography>
           <Typography variant="subtitle2" gutterBottom className={classes.date}>
-            Février 2017 - Août 2018
+            Octobre 2017 - Septembre 2018
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Conception d'architecture logicielle: <b className= {classes.technos}>Microservices, CQRS, Event Sourcing</b>
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Développement: <b className= {classes.technos}>ReactJS, GraphQL</b>
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Tests unitaires
+          </Typography>
+          <Typography variant="body1" className={classes.subtitle}>
+            - Agilité: <b className= {classes.technos}>Scrum</b>
+          </Typography>
+          <br />
+          <Divider light />
+        </Grid>
+        <Grid item xs={12} className={classes.cardBody}>
+          <Typography variant="h6" gutterBottom className={classes.title}>
+            Développeur Symfony 3, AngularJS - Appartoo Paris
+          </Typography>
+          <Typography variant="subtitle2" gutterBottom className={classes.date}>
+            Février 2017 - Août 2017
           </Typography>
           <Typography variant="body1" className={classes.subtitle}>
             - Développement d'un site de mise en relation entre colocataires
@@ -65,9 +91,9 @@ class Education extends Component {
               gutterBottom
               className={classes.date}
             >
-              Freelance : Septembre - Janvier 2018
+              Projet perso : Septembre 2018 - Février 2019
             </Typography>
-            - Développement d'un LMS pour l'entreprise GEERD
+            - Développement d'un LMS pour l'université Mohamed VI: <b className= {classes.technos}>NodeJS, ReactJS</b>
             <br />
             <Typography
               variant="subtitle2"
@@ -79,6 +105,7 @@ class Education extends Component {
             - Développement d'un site de gestion du centre Doctorale pour la
             faculté des lettres Fès
           </Typography>
+            <br />
         </Grid>
       </Grid>
     );

@@ -37,7 +37,8 @@ export default theme => ({
     color: COLORS.darkGray
   },
   cardBody: {
-    padding: theme.spacing.unit * 2
+    padding: theme.spacing.unit * 2,
+    paddingBottom: 0
   },
   icon: {
     marginRight: theme.spacing.unit * 2,
