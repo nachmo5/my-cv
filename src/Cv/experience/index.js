@@ -48,7 +48,7 @@ class Education extends Component {
         </Grid>
         <Grid item xs={12} className={classes.cardBody}>
           <Typography variant="h6" gutterBottom className={classes.title}>
-            Ingénieur études et développement FullStack Javascript - Taillis Labs
+            Ingénieur Études et Développement FullStack Javascript - Taillis Labs
           </Typography>
           <Typography variant="subtitle2" gutterBottom className={classes.date}>
             Octobre 2017 - Septembre 2018
@@ -91,7 +91,7 @@ class Education extends Component {
               gutterBottom
               className={classes.date}
             >
-              Projet perso : Septembre 2018 - Février 2019
+              Projet personnel : Septembre 2018 - Février 2019
             </Typography>
             - Développement d'un LMS pour l'université Mohamed VI: <b className= {classes.technos}>NodeJS, ReactJS</b>
             <br />

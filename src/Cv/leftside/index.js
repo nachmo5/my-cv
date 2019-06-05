@@ -32,7 +32,7 @@ class Left extends Component {
             gutterBottom
             className={classes.subtitle}
           >
-            Ingénieur études et dévelopement FullStack
+             Ingénieur Études et Développement FullStack
           </Typography>
           <br />
           {/* ___________________________________________________________________________________________________*/}
